@@ -1,0 +1,240 @@
+body {
+
+background-color: #ffffff;
+
+}
+@font-face {
+  font-family: 'hero';
+  src: url('Hero.otf');
+
+}
+
+@font-face {
+  font-family: 'herolight';
+  src: url('herolight.otf');
+
+}
+
+@font-face {
+  font-family: 'foxcat';
+  src: url(foxcat.ttf);
+
+}
+
+@font-face {
+  font-family: 'dense';
+  src: url('dense.otf');
+
+}
+
+div.sidebar {
+width:300px;
+height: 700px;
+margin-left: 0px;
+margin-top: 0px;
+position: fixed;
+background-color: #000000;
+color: #ffffff;
+}
+
+
+
+#resume {
+  margin-left: 330px;
+  height:auto;
+  width: auto;
+  position: relative;
+
+}
+
+.mypicture {
+padding-top: 20px;
+width: 330px;
+padding-left: 50px;
+
+}
+
+#contactinfo {
+  width: 330px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+nav {
+  text-align: center;
+  margin-left: 10px;
+
+}
+
+.button {
+  padding: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  background-color: #2C2C2C;
+
+
+}
+
+a {
+  color: #fff;
+}
+
+header {
+  font-family: 'herolight';
+  text-align: center
+
+}
+
+h2 {
+margin-top: 0px;
+height: 0px;
+padding-bottom: 50px;
+text-align: center;
+font-family: 'hero';
+font-size: 50px;
+
+/* resume */
+
+}
+
+h3  {
+  padding-top:0px;
+  padding-bottom: 90px;
+  margin: 75px;
+  width: 150px;
+  font-family: 'dense';
+  font-size: 30px;
+  display: inline-block;
+
+  /* education */
+
+}
+
+h3.header2 {
+  padding-top:0px;
+  padding-bottom: 90px;
+  margin-top: 75px;
+  margin-left:75px;
+  margin-bottom: 1350px;
+  width: 150px;
+  font-family: 'dense';
+  font-size: 30px;
+  display: inline-block;
+
+  /* experience */
+}
+
+h4 {
+font-family: 'hero';
+text-transform: uppercase;
+font-size: 18px;
+
+}
+
+#educontent {
+  font-family: 'herolight';
+  font-size: 16px;
+  text-align: right;
+  width: 300px;
+  float: right;
+  padding-top: 60px;
+  padding-right: 100px;
+  display:inline-block;
+  text-transform: uppercase;
+}
+
+.divider {
+
+  border-top: 1px solid #2C2C2C;
+
+
+}
+
+
+
+#expcontent {
+  font-family: 'herolight';
+  font-size: 16px;
+  text-align: right;
+  width: 300px;
+  float: right;
+  padding-top: 60px;
+  padding-right: 100px;
+  display:inline-block;
+
+}
+
+#skills {
+  display:inline-block;
+}
+
+#skillcontent {
+  font-family: 'herolight';
+  font-size: 16px;
+  text-align: right;
+  width: 300px;
+  float: right;
+  padding-top: 60px;
+  padding-right: 100px;
+  padding-left:350px;
+  display:inline-block;
+}
+
+ul {
+text-align: left;
+
+}
+
+#aboutme h2 {
+  padding-left: 250px;
+}
+
+
+#aboutme p {
+  text-align:center;
+  font-family: 'herolight';
+  height:auto;
+  width: 1000px;
+  padding-left: 350px;
+
+}
+
+#pictures h2 {
+  padding-top: 30px;
+  padding-right: 122px;
+}
+
+#pictures {
+  margin-left: 350px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+
+
+}
+
+.portrait {
+  height: 500px;
+  width: 500px;
+  display: inline-block;
+}
+
+.landscape {
+  height: 350px;
+  width: 500px;
+  display: inline-block;
+}
+
+.blankspace {
+  padding-left: 350px;
+}
+
+@media only print {
+
+  body { font-size: 12px }
+  body {font-family:"Times New Roman"}
+
+}
